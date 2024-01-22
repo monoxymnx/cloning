@@ -1,0 +1,60 @@
+.contact {
+  display: flex; 
+  flex-direction: column;
+  color: #6C6864;
+}
+
+.contact div {
+  display: flex;
+  align-items: center; 
+  margin-bottom: 10px;
+  color: #6C6864;
+}
+
+.contact p {
+  margin-left: 10px; 
+  color: #6C6864;
+}
+
+.icon-follow {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin-left: 5px;
+ 
+}
+
+.icon-follow svg {
+  margin-right: 10px; 
+  font-size: 40px;
+}
+
+.search {
+  display: flex;  
+  align-items: center; 
+  
+  border-radius: 5px;
+}
+
+.search input,
+.search button {
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+}
+
+.search button { 
+  background: #3e6d1e;
+  color: #fff;
+  border-radius: 0 5px 5px 0; 
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 500px;
+  
+}
+
+

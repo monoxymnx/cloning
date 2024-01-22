@@ -1,0 +1,45 @@
+/* Slide.css */
+
+.slide-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .slide-image {
+    background-size: cover; /* ครอบคลุมพื้นที่หน้าจอ */
+    background-size: contain; /* ย่อภาพให้พอดีกรอบ */  
+    background-size: 50% auto; /* กําหนดขนาดเองได้ */
+  }
+  
+  .seemore {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+  
+    background-color: black;
+    justify-content: space-around;
+  }
+  
+  .info {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  @media (max-width: 768px) {
+    .slide-image {
+      background-size: contain; 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .seemore {
+      flex-direction: column;
+      align-items: center;
+    }  
+  }

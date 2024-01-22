@@ -1,0 +1,32 @@
+/* Highlight.css */
+
+.slide-container {
+    margin: -10px;
+  }
+  
+  .card-container {
+    margin: 10px;
+  }
+  
+  .slide-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Default styles for larger screens */
+  .card-container {
+    width: 33.3333%;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 767px) {
+    .card-container {
+      width: 100%;
+    }
+  }
+  

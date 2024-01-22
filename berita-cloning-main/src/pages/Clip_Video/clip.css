@@ -1,0 +1,59 @@
+.header{
+    font-family: 'Athiti', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    background-color: #171717;
+    width: auto;
+    height: 98px;
+    color: #fff;
+    font-size: 45px;
+    justify-content: center;
+    
+    
+}
+
+.header h1{
+    font-size: 30px;
+}
+
+.header p {
+    font-size: 15px;
+    color: #788B8B;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: antiquewhite; */
+    width: 100%;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    
+   
+    
+}
+
+
+.boxer {
+    width: 100%;
+    max-width: 100%; /* กำหนดให้รูปภาพขยายตามความกว้างเต็มที่ */
+    height: auto; /* อนุญาตให้ความสูงปรับตามความกว้าง */
+    color: #171717;
+    
+    margin: 20px;
+  }
+  @media screen and (min-width: 1500px) {
+    /* ปรับขนาดรูปภาพสำหรับหน้าจอที่กว้างขึ้นกว่า 768px */
+    .boxer {
+      max-width: 500px; /* กำหนดขนาดสูงสุดเมื่อหน้าจอใหญ่ขึ้น */
+    }
+  }
+
+.boxer p {
+    font-size: 20px;
+}
+
+
+.other{
+    display: flex;
+    flex-wrap: w;
+}
